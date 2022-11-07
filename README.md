@@ -44,18 +44,18 @@ Facilitate useful Windows shorcut
 
 ### 4. VSCode
 *Insert useful vscode shortcut*
+
 ### 5. FGC
 Motions inputs !
 
 ## Hardware
-- Gateron Clear Switch
-- Raspberry Pico
+- 12 Gateron Clear Switch
+    - They're cool
+- 1 Raspberry Pico
     - Cheap (around 4€)
     - Has many pins
     - Programmable
 - 12 keycaps
-
-
 
 ## Software
 - Raspberry Pico : [CircuitPython](https://circuitpython.org/)
@@ -64,15 +64,18 @@ Motions inputs !
 ## Realisation
 
 ### Prototype Version
-Use cable, Gateron Clear Switch & random keycaps. Implement goal 1 to 3.
+Use cables, Gateron Clear Switch & random keycaps. 3D Printed Case. Implement goal 1 & 2.
 
 ### Release 1.0
-Custom PCB, Switch & Custom Keycaps. Implement goal 1 to 6.
+Use cables, Gateron Clear Switch & random keycaps. 3D Printed Case. Implement goal 1 to 4.
+
+### Release 2.0
+Use custom PCB, Gateron Clear Switch & custom keycaps. Quality Case. Implement goal 1 to 6.
 
 ### Goals
 1. Build a custom numpad. **<- I am here !**
 2. Change the namepad to other custom commands like Ctrl Alt Suppr.
 3. Implement the whole mode switching logic and the first mode (see [Modes](#modes)).
-4. Implement Macros & Scripts. You press a button and 3 things launch, your chill playlist is playing.
+4. Implement Macros & Scripts. Example : You press a button and 3 things launch, your chill playlist is playing and your notifications are off.
 5. Add RGB LED to help with understanding which mode is on.
 6. Develop a GUI where you will be able to program your mini keyboard as you desire.
