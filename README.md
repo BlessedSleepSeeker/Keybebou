@@ -31,7 +31,7 @@ A Custom Keyboard with 12 keys, dedicated for quick actions & shortcuts, with pr
 
 ### Physical Layout
 
-```
+```text
 789
 456
 123
@@ -74,7 +74,7 @@ Press the mode switching combination (`U + L + M`, press `M` while both modifier
 
 *No Modifiers*
 
-```
+```text
 7 8 9
 4 5 6
 1 2 3
@@ -83,7 +83,7 @@ U L 0
 
 ***Upper** Modifier*
 
-```
+```text
 16 17 18
 13 14 15
 10 11 12
@@ -92,7 +92,7 @@ U^ L  M
 
 ***Lower** Modifier*
 
-```
+```text
 25 26 27
 22 23 24
 19 20 21
@@ -101,7 +101,7 @@ U  L^ M
 
 ***Upper** and **Lower** Modifier*
 
-```
+```text
 34 35 36
 31 32 33
 28 29 30
@@ -120,7 +120,7 @@ If you have any suggestions regarding this spot, do not hesitate !
 
 *No Modifiers*
 
-```
+```text
 7 8 9
 4 5 6
 1 2 3
@@ -129,7 +129,7 @@ U L 0
 
 ***Upper** Modifier*
 
-```
+```text
 ^  %  #
 /  .  ²
 +  -  *
@@ -138,7 +138,7 @@ U^ L  Enter
 
 ***Lower** Modifier*  
 
-```
+```text
 $  €  £
 <  >  °
 (  )  =
@@ -147,7 +147,7 @@ U  L^ Enter
 
 ***Upper** and **Lower** Modifier*  
 
-```
+```text
 Empty Empty Empty 
 Empty Empty Empty 
 Empty Empty Empty 
