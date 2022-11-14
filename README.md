@@ -22,8 +22,12 @@
     - [October 2022](#october-2022)
     - [November 7 2022](#november-7-2022)
     - [November 10 2022](#november-10-2022)
+    - [November 13 2022](#november-13-2022)
+    - [November 14 2022](#november-14-2022)
 
 ## Concept
+
+What would you do with 1152 more keys ?
 
 A Custom Keyboard with 12 keys, dedicated for quick actions & shortcuts, with programmable modes and quick switch between them.
 
@@ -42,7 +46,7 @@ ULM
 - `M` : Mode Change Key/Wildcard Key
 - `1` to `9` : programmable keys
 
-This is the most optimal layout for key diversity giving us 36 (9 base + 9 modX + 9 modY + 9 modX modY) different keys per mode, with 36 modes, for a total of 1296 individual programmable keys.
+This is the most optimal layout for key diversity giving us 36 (9 base + 9 modX + 9 modY + 9 modX modY) different keys per mode, with 32 modes, for a total of 1152 individual programmable keys.
 
 For the rest of the document, `^` means that the key is pressed.  
 *Example : `U^` mean that the **Upper** modifier key is pressed.*
@@ -51,18 +55,30 @@ For the rest of the document, `^` means that the key is pressed.
 
 The physical layout and the mode layout have been designed with a few guidelines in mind :
 
-- > We are an addon
-  - The goal is not to supplant but to enhance the utilisation of a regular keyboard.
-  - I'm using a 60% Keyboard so I'm a little biased on what is missing/needed. Everything should be customisable in the end (it doesn't even matter :musical_note:), so you will be able to configure your own modes anyway.
-- > Allow for maximum possibility in the lowest amount of physical key while keeping it simple enough.
-  - This is why we don't have more modifier even though we could have gone for 3.
-- > The more a key is going to be used, the less modifier it require.
-  - Nobody would want to press 3 buttons to get a single character displayed.
-- > The more a key has impact on the system, the more modifier it require.
-  - You don't want to press your "kill X, Y and Z" script by mistake.
-- > Make 3 and more keys combination shortcuts available in only one or 2 key press.
-  - This is why on some modes we don't have any bindings to double modifier.
-- > Everything should be open-source and customisable easily.
+> We are an addon
+
+- The goal is not to supplant but to enhance the utilisation of a regular keyboard.
+- I'm using a 60% Keyboard so I'm a little biased on what is missing/needed. Everything should be customisable in the end (it doesn't even matter :musical_note:), so you will be able to configure your own modes anyway.
+
+> Allow for maximum possibility in the lowest amount of physical key while keeping it simple enough.
+
+- This is why we don't have more modifier even though we could have gone for 3.
+
+> The more a key is going to be used, the less modifier it require.
+
+- Nobody would want to press 3 buttons to get a single character displayed.
+
+> The more a key has impact on the system, the more modifier it require.
+
+- You don't want to press your "kill X, Y and Z" script by mistake.
+
+> Make 3 and more keys combination shortcuts available in only one or 2 key press.
+
+- This is why on some modes we don't have any bindings to double modifier.
+
+> Everything should be open-source and customisable easily.
+
+- Open Source is cool and customisation is cool.
 
 ## Modes
 
@@ -217,7 +233,7 @@ Motions inputs ! Individual Keypress won't do anything (except 1) and you will h
 ## Software Tools
 
 - Raspberry Pico : [CircuitPython](https://circuitpython.org/)
-- GUI : ???
+- We will be using [QMK](https://qmk.fm/)
 
 ## Realisation
 
@@ -250,3 +266,14 @@ Motions inputs ! Individual Keypress won't do anything (except 1) and you will h
   - Mode Switching part added to the readme
   - Added Design Philosophy
   - Added Table of Content
+
+### November 13 2022
+
+- Protyping :
+  - One button arduino pico keyboard is working thanks to a tutorial at [Learn Adafruit](https://learn.adafruit.com/diy-pico-mechanical-keyboard-with-fritzing-circuitpython) and code on [Github](https://github.com/adafruit/Adafruit_Learning_System_Guides/blob/main/Pico_RP2040_Mech_Keyboard/code.py)
+
+### November 14 2022
+
+- Script :
+  - Learned about [QMK](https://qmk.fm/)
+  - Decision to create a QMK compatible keyboard
